@@ -6,20 +6,20 @@ import { NAVBAR_LINKS } from "@/constants/navbar";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
+  //   NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
+  //   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
 import {
   Drawer,
-  DrawerClose,
+  //   DrawerClose,
   DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
+  //   DrawerDescription,
+  //   DrawerFooter,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
@@ -39,13 +39,7 @@ import {
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-import {
-  ArrowDown,
-  Bell,
-  ChevronDown,
-  MenuIcon,
-  WalletCards,
-} from "lucide-react";
+import { Bell, ChevronDown, MenuIcon, WalletCards } from "lucide-react";
 
 function DesktopNavigation() {
   return (
